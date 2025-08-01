@@ -35,10 +35,10 @@ header {
 }
 
 header .container {
-    display: flex;
+    display: contents;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 2px;
 }
 
 .header-logo {
