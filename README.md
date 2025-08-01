@@ -1,35 +1,40 @@
-Sodeeq Bello's Portfolio Website
-Project Description
+## Sodeeq Bello's Portfolio Website
+## Project Description
+
 This repository contains all the files used to build my personal portfolio website, Ibn Bello Digital. The website is a professional showcase of my skills, projects, and educational background, serving as a comprehensive digital resume for potential employers and collaborators. It is a static webpage built with fundamental web technologies.
 
-Key Features
-Fully Responsive Design: The website is optimized for all screen sizes, from mobile phones to desktops.
+## Key Features
 
-Intuitive Navigation: A sticky header with a navigation bar allows for easy access to different sections of the page.
+* Fully Responsive Design: The website is optimized for all screen sizes, from mobile phones to desktops.
 
-Dynamic Sections: Includes dedicated sections for About Me, Skills, Education, Projects, and Contact Information.
+* Intuitive Navigation: A sticky header with a navigation bar allows for easy access to different sections of the page.
 
-Downloadable CV: A direct link is provided for a quick and easy download of my curriculum vitae.
+* Dynamic Sections: Includes dedicated sections for About Me, Skills, Education, Projects, and Contact Information.
 
-Interactive Contact Form: A clean, front-end form demonstrates my ability to structure data for user input.
+* Downloadable CV: A direct link is provided for a quick and easy download of my curriculum vitae.
 
-Professional Branding: The website features a personal logo, profile picture, and a favicon for a polished look.
+* Interactive Contact Form: A clean, front-end form demonstrates my ability to structure data for user input.
 
-Technologies Used
-HTML5: The foundational markup language for structuring the website.
+* Professional Branding: The website features a personal logo, profile picture, and a favicon for a polished look.
 
-CSS3: For styling, layout, and mobile responsiveness.
+## Technologies Used
 
-Font Awesome: Used to incorporate professional icons for contact links and other elements.
+* HTML5: The foundational markup language for structuring the website.
 
-Git & GitHub: For version control and collaborative development.
+* CSS3: For styling, layout, and mobile responsiveness.
 
-Live Demo
+* Font Awesome: Used to incorporate professional icons for contact links and other elements.
+
+* Git & GitHub: For version control and collaborative development.
+
+## Live Demo
+
 You can view a live version of this portfolio website here:
 
 Live Website: https://sodeeqbello.github.io/my-portfolio-website/
 
-Installation and Setup
+## Installation and Setup
+
 To get a local copy up and running, follow these simple steps.
 
 Clone the repository:
@@ -43,12 +48,14 @@ cd my-portfolio-website
 Open the website:
 Simply open the index.html file in your preferred web browser to view the portfolio locally.
 
-License
+## License
+
 This project is licensed under the MIT License. See the LICENSE.md file for more details.
 
-Contact
+## Contact
+
 If you have any questions, comments, or opportunities, feel free to connect with me.
 
-LinkedIn: https://www.linkedin.com/in/sodeeqbello
+* LinkedIn: https://www.linkedin.com/in/sodeeqbello
 
-GitHub: https://github.com/sodeeqBello
+* GitHub: https://github.com/sodeeqBello
