@@ -28,9 +28,10 @@ header {
     padding: 1.5rem 0;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    position: sticky; /* Makes the header stick to the top */
+    position: sticky;
     top: 0;
     z-index: 1000;
+    transition: padding 0.3s ease; /* Smooth transition for padding changes */
 }
 
 header .container {
@@ -55,6 +56,7 @@ header h1, header h4 {
 header h1 {
     font-size: 2.5em;
     letter-spacing: 2px;
+    transition: font-size 0.3s ease; /* Smooth transition for font size changes */
 }
 
 header h4 {
@@ -408,17 +410,22 @@ footer p {
  * Media Queries for Responsiveness
  */
 @media (max-width: 768px) {
-    header .container {
-        flex-direction: column;
-    }
-
-    header nav ul {
-        flex-direction: column;
-        gap: 10px;
+    header {
+        padding: 1rem 0; /* Reduced padding for smaller screens */
     }
 
     header h1 {
-        font-size: 2em;
+        font-size: 1.8em; /* Smaller font size for mobile header */
+    }
+
+    header h4 {
+        display: none; /* Hides the subtitle on small screens to save space */
+    }
+    
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
     }
 
     section h2 {
@@ -432,5 +439,16 @@ footer p {
     .contact-links {
         flex-direction: column;
         align-items: stretch;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav a {
+        font-size: 0.9em;
     }
 }
